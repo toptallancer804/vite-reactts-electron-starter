@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import AppBar from './AppBar';
 
 function App() {
-  console.log(window.ipcRenderer);
 
   const [isOpen, setOpen] = useState(false);
   const [isSent, setSent] = useState(false);
